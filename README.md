@@ -1,2 +1,80 @@
-# bulma-addons
-Side projects to enhance Bulma
+# bulma-addons:
+
+> Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Fluent Design System](https://fluent.microsoft.com).
+
+<a href="https://patreon.com/mubaidr">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" height="42">
+</a>
+
+[![NPM](https://nodei.co/npm/bulma-addons.png?compact=true)](https://nodei.co/npm/bulma-addons/)
+
+![dependencies](https://david-dm.org/mubaidr/bulma-addons.svg)
+
+## Demo
+
+[mubaidr.github.io/bulma-addons](https://mubaidr.github.io/bulma-addons/)
+
+## Quick install
+
+### NPM
+
+```sh
+npm install bulma-addons
+```
+
+### Yarn
+
+```sh
+yarn add bulma-addons
+```
+
+### Import
+
+After installation, you can import the CSS/Sass file into your project using this snippet:
+
+#### css
+
+```sh
+import 'bulma-addons/css/bulma.css'
+```
+
+#### sass
+
+```sh
+import 'bulma-addons/bulma.sass'
+```
+
+## CDN link
+
+[unpkg.com/bulma-addons](https://unpkg.com/bulma-addons/css/)
+
+## Download from this Repository
+
+[Download Latest Minified Build](https://raw.githubusercontent.com/mubaidr/bulma-addons/master/css/bulma.min.css)
+
+## Customize
+
+Simply set your own Sass variables before importing bulma-addons.
+
+```scss
+// Set your brand colors
+$primary: #8a4d76;
+$info: #fa7c91;
+$success: #757763;
+$warning: yellow;
+$danger: red;
+$light: #ccc;
+$dark: #444;
+
+// Update font family
+$family-sans-serif: 'Calibri', 'Arial';
+
+// Import the bulma-addons
+@import 'bulma-addons/bulma.sass';
+```
+
+## Copyright and license
+
+Code copyright 2018 [Muhammad Ubaid Raza](https://mubaidr.github.io).
+
+Code released under [the MIT license](https://github.com/jgthms/bulma/blob/master/LICENSE).
