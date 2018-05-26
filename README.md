@@ -22,27 +22,29 @@
 npm install bulma-addons
 ```
 
-### Yarn
-
-```sh
-yarn add bulma-addons
-```
-
 ### Import
 
 After installation, you can import the CSS/Sass file into your project using this snippet:
 
-#### css
-
-```sh
+```js
 import 'bulma-addons/css/bulma.css'
-```
-
-#### sass
-
-```sh
+// or
 import 'bulma-addons/bulma.sass'
 ```
+
+### Import only required addons
+
+You can import only the required addon from the package.
+
+```js
+import 'bulma-addons/src/sass/toggle.sass'
+import 'bulma-addons/src/sass/checkbox.sass'
+// or import css files
+import 'bulma-addons/css/addons/toggle.css'
+import 'bulma-addons/css/addons/checkbox.css'
+```
+
+Pre-built `css` addons are available in `css\addons` directory.
 
 ## CDN link
 
@@ -50,28 +52,7 @@ import 'bulma-addons/bulma.sass'
 
 ## Download from this Repository
 
-[Download Latest Minified Build](https://raw.githubusercontent.com/mubaidr/bulma-addons/master/css/bulma.min.css)
-
-## Customize
-
-Simply set your own Sass variables before importing bulma-addons.
-
-```scss
-// Set your brand colors
-$primary: #8a4d76;
-$info: #fa7c91;
-$success: #757763;
-$warning: yellow;
-$danger: red;
-$light: #ccc;
-$dark: #444;
-
-// Update font family
-$family-sans-serif: 'Calibri', 'Arial';
-
-// Import the bulma-addons
-@import 'bulma-addons/bulma.sass';
-```
+[Download Minified Builds](https://raw.githubusercontent.com/mubaidr/bulma-addons/master/css/bulma.min.css)
 
 ## Copyright and license
 

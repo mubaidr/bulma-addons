@@ -17,6 +17,7 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.8.2",
+    "foreach-cli": "^1.8.0",
     "node-sass": "^4.9.0",
     "postcss-cli": "^5.0.0",
     "rimraf": "^2.6.2"
@@ -32,15 +33,23 @@
     "url": "git+https://github.com/mubaidr/bulma-addons.git"
   },
   "scripts": {
-    "build":
-      "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-minify",
+    "build": "npm run build-package && npm run build-addons",
+    "build-addons":
+      "rimraf css/addons && npm run build-sass-addons && npm run build-autoprefix-addons && npm run build-minify-addons",
     "build-autoprefix":
       "postcss --use autoprefixer --map true --output css/bulma.css css/bulma.css",
-    "build-clean": "rimraf css",
+    "build-autoprefix-addons":
+      "postcss --use autoprefixer --map true --dir css/addons css/addons/*.css",
     "build-docs": "cd src/docs && npm run build && cd..",
     "build-minify": "cleancss --level 2 -o css/bulma.min.css css/bulma.css",
+    "build-minify-addons":
+      "foreach -g \"./css/addons/*.css\" -x \"cleancss --level 2 #{path} -o css/addons/#{name}.min.css\" --no-c",
+    "build-package":
+      "npm run build-sass && npm run build-autoprefix && npm run build-minify",
     "build-sass":
       "node-sass --output-style expanded --source-map true bulma.sass css/bulma.css",
+    "build-sass-addons":
+      "node-sass --output-style expanded --source-map true -o css/addons src/sass",
     "dev": "cd src/docs && npm run dev && cd..",
     "start": "npm run build-sass --watch",
     "test": "sh test/sass-compile-tester.sh"
