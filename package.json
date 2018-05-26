@@ -26,7 +26,7 @@
   "homepage": "https://mubaidr.github.io/bulma-addons",
   "keywords": ["css3", "bulma", "addons", "extensions"],
   "license": "MIT",
-  "main": "bulma.sass",
+  "main": "./bulma.sass",
   "name": "bulma-addons",
   "repository": {
     "type": "git",
@@ -54,6 +54,6 @@
     "start": "npm run build-sass --watch",
     "test": "sh test/sass-compile-tester.sh"
   },
-  "style": "bulma/css/bulma.css",
-  "version": "0.1.1"
+  "style": "css/bulma.css",
+  "version": "0.1.2"
 }
