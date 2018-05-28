@@ -48,12 +48,12 @@
     "build-package":
       "npm run build-sass && npm run build-autoprefix && npm run build-minify",
     "build-sass":
-      "node-sass --output-style expanded --source-map true bulma.sass css/bulma.css --importer node_modules/node-sass-import",
+      "node-sass --output-style expanded bulma.sass css/bulma.css --importer node_modules/node-sass-import",
     "build-sass-addons":
-      "node-sass --output-style expanded --source-map true -o css/addons src/sass --importer node_modules/node-sass-import",
+      "node-sass --output-style expanded -o css/addons src/sass --importer node_modules/node-sass-import",
     "dev": "cd src/docs && npm run dev && cd..",
     "test": "sh test/sass-compile-tester.sh"
   },
   "style": "css/bulma.css",
-  "version": "0.1.4"
+  "version": "0.1.5"
 }

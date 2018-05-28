@@ -25,12 +25,6 @@
               </span>
             </a>
           </p>
-          <br/>
-          <p>
-            <a href="https://patreon.com/mubaidr">
-              <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" style="height: 42px; width: auto;" />
-            </a>
-          </p>
         </div>
       </div>
     </section>
