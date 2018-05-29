@@ -435,7 +435,6 @@
 @-webkit-keyframes orbit {
   0% {
     opacity: 1;
-    z-index: 99;
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
     -webkit-animation-timing-function: ease-out;
@@ -496,7 +495,6 @@
 @keyframes orbit {
   0% {
     opacity: 1;
-    z-index: 99;
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
     -webkit-animation-timing-function: ease-out;
@@ -650,6 +648,7 @@
   background-color: whitesmoke;
   border-color: whitesmoke;
   cursor: pointer;
+  outline-style: none;
 }
 
 .navigation-view.is-static {
@@ -676,8 +675,7 @@
 
 .navigation-view.is-static > .button {
   left: 0 !important;
-  padding: 0.33em 0;
-  width: 60px;
+  padding: 0.33em calc(1.5em - 1px);
 }
 
 .navigation-view.is-static.is-active {
@@ -800,4 +798,5 @@ body.has-static-navigation-view {
   margin-left: -160px;
   z-index: 40;
 }
+
 /*# sourceMappingURL=bulma.css.map */

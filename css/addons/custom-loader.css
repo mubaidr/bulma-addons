@@ -109,7 +109,6 @@
 @-webkit-keyframes orbit {
   0% {
     opacity: 1;
-    z-index: 99;
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
     -webkit-animation-timing-function: ease-out;
@@ -170,7 +169,6 @@
 @keyframes orbit {
   0% {
     opacity: 1;
-    z-index: 99;
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
     -webkit-animation-timing-function: ease-out;
@@ -227,4 +225,5 @@
             transform: rotate(900deg);
   }
 }
+
 /*# sourceMappingURL=custom-loader.css.map */
