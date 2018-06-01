@@ -2,6 +2,10 @@
 
 > Addons for Bulma CSS Framework.
 
+> [Fluent Design Theme for Bulma](https://github.com/mubaidr/bulma-fluent) is also available.
+
+> [Fluent Design Components for Vue.js](https://github.com/mubaidr/vue-fluent) are also available.
+
 <a href="https://patreon.com/mubaidr">
   <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" height="42">
 </a>
@@ -37,10 +41,10 @@ import 'bulma-addons/bulma.sass'
 You can import only the required addon from the package.
 
 ```js
-import 'bulma-addons/src/sass/toggle.sass'
+import 'bulma-addons/src/sass/navigation-view.sass'
 import 'bulma-addons/src/sass/checkbox.sass'
 // or import css files
-import 'bulma-addons/css/addons/toggle.css'
+import 'bulma-addons/css/addons/navigation-view.css'
 import 'bulma-addons/css/addons/checkbox.css'
 ```
 
@@ -52,7 +56,7 @@ Pre-built `css` addons are available in `css\addons` directory.
 
 ## Download from this Repository
 
-[Download Minified Builds](https://raw.githubusercontent.com/mubaidr/bulma-addons/master/css/bulma.min.css)
+[Download Minified Builds](https://raw.githubusercontent.com/mubaidr/bulma-addons/master/css/)
 
 ## Copyright and license
 

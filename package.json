@@ -11,12 +11,15 @@
   "devDependencies": {
     "autoprefixer": "^8.5.1",
     "clean-css-cli": "^4.1.11",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-plugin-html": "^4.0.3",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-vue": "^4.5.0",
     "foreach-cli": "^1.8.0",
     "node-sass": "^4.9.0",
     "node-sass-import": "^2.0.1",
@@ -52,8 +55,9 @@
     "build-sass-addons":
       "node-sass --output-style expanded -o css/addons src/sass --importer node_modules/node-sass-import",
     "dev": "cd src/docs && npm run dev && cd..",
+    "lint": "eslint --ext .js,.vue --fix src/",
     "test": "sh test/sass-compile-tester.sh"
   },
   "style": "css/bulma.css",
-  "version": "0.1.6"
+  "version": "0.1.7"
 }

@@ -11,12 +11,14 @@
         <div class="field">
           <div class="control">
             <label class="checkbox is-primary">
-              <input type="checkbox" checked> I agree to the
+              <input
+                type="checkbox"
+                checked> I agree to the
               <a href="#">terms and conditions</a>
             </label>
           </div>
         </div>
-        <br/>
+        <br>
         <details>
           <summary>
             <span>How To Use</span>
@@ -33,7 +35,7 @@
 &lt;/div&gt;
             </pre>
           </p>
-          <br/>
+          <br>
           <p>
             <span class="tag is-info">Info</span> You can also choose any of the color variant i.e.
             <code>is-primary</code>,
@@ -53,18 +55,20 @@
         </details>
       </div>
 
-      <hr/>
+      <hr>
       <h2 class="subtitle is-4">Toggle</h2>
       <p>A custom toggle control to match your application theme.</p>
       <div class="block">
         <div class="field">
           <div class="control">
             <label class="toggle is-primary">
-              <input type="checkbox" checked> Subscribe to news-letter
+              <input
+                type="checkbox"
+                checked> Subscribe to news-letter
             </label>
           </div>
         </div>
-        <br/>
+        <br>
         <details>
           <summary>
             <span>How To Use</span>
@@ -80,7 +84,7 @@
 &lt;/div&gt;
             </pre>
           </p>
-          <br/>
+          <br>
           <p>
             <span class="tag is-info">Info</span> You can also choose any of the color variant i.e.
             <code>is-primary</code>,
@@ -100,21 +104,26 @@
         </details>
       </div>
 
-      <hr/>
+      <hr>
       <h2 class="subtitle is-4">Radio</h2>
       <p>Styled radio controls to match your application theme.</p>
       <div class="block">
         <div class="field">
           <div class="control">
             <label class="radio">
-              <input type="radio" name="question"> Yes
+              <input
+                name="question"
+                type="radio"> Yes
             </label>
             <label class="radio">
-              <input type="radio" name="question" checked> No
+              <input
+                name="question"
+                type="radio"
+                checked> No
             </label>
           </div>
         </div>
-        <br/>
+        <br>
         <details>
           <summary>
             <span>How To Use</span>
@@ -133,7 +142,7 @@
 &lt;/div&gt;
             </pre>
           </p>
-          <br/>
+          <br>
           <p>
             <span class="tag is-info">Info</span> You can also choose any of the color variant i.e.
             <code>is-primary</code>,
@@ -153,96 +162,76 @@
         </details>
       </div>
 
-      <hr/>
+      <hr>
       <h2 class="subtitle is-4">Custom Loader/Spinner</h2>
       <p>A simple loader to display indeterminate loading status.</p>
       <div class="block loader-container">
         <div class="custom-loader is-small is-primary">
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
         </div>
         <div class="custom-loader is-primary">
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
         </div>
         <div class="custom-loader is-medium is-primary">
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
         </div>
         <div class="custom-loader is-large is-primary">
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
           <div class="dot">
-            <div class="inner-dot">
-            </div>
+            <div class="inner-dot"/>
           </div>
         </div>
       </div>
@@ -274,9 +263,9 @@
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-            </pre>
+          </pre>
         </p>
-        <br/>
+        <br>
         <p>
           <span class="tag is-info">Info</span> You can also choose any of the color variant i.e.
           <code>is-primary</code>,
@@ -294,7 +283,7 @@
           <code>is-large</code>
         </p>
       </details>
-      <hr/>
+      <hr>
       <h2 class="subtitle is-4">Highlighted Buttons</h2>
       <p>Highlighted buttons to gain user focus.</p>
       <div class="block buttons-container">
@@ -311,8 +300,8 @@
         <a class="button is-danger is-highlighted"> Danger
         </a>
 
-        <br/>
-        <br/>
+        <br>
+        <br>
         <details>
           <summary>How to use</summary>
           <p>
@@ -322,7 +311,7 @@
 &lt;/button&gt;
             </code></pre>
           </p>
-          <br/>
+          <br>
           <p>
             <span class="tag is-info">Info</span> Add
             <code>is-highlighted</code> class to the button to highlight a button.
@@ -330,21 +319,30 @@
         </details>
       </div>
 
-      <hr/>
+      <hr>
       <h2 class="subtitle is-4">Navigation View</h2>
       <p>The navigation view control provides a collapsible navigation menu for top-level navigation in your app.</p>
       <div class="block">
         <div class="has-centered-text">
-          <button class="button is-primary" @click="isNavigationBarOpen = !isNavigationBarOpen">
+          <button
+            class="button is-primary"
+            @click="isNavigationBarOpen = !isNavigationBarOpen">
             Toggle Navigation view
           </button>
         </div>
-        <div :class="{'is-active': isNavigationBarOpen}" class="navigation-view">
-          <button class="button" title="Close Main Menu" @click="isNavigationBarOpen = !isNavigationBarOpen">
-            <span class="icon">
-              <i class="fa fa-times" />
-            </span>
-          </button>
+        <div
+          :class="{'is-active': isNavigationBarOpen}"
+          class="navigation-view">
+          <a
+            class="navbar-burger is-active"
+            role="button"
+            aria-expanded="false"
+            aria-label="menu"
+            @click="isNavigationBarOpen = !isNavigationBarOpen">
+            <span aria-hidden="true"/>
+            <span aria-hidden="true"/>
+            <span aria-hidden="true"/>
+          </a>
           <aside class="menu">
             <p class="menu-label">
               General
@@ -353,15 +351,19 @@
               <li>
                 <a>
                   <span class="icon">
-                    <i class="fas fa-box" aria-hidden="true" />
+                    <i
+                      class="fas fa-box"
+                      aria-hidden="true"/>
                   </span> Dashboard
                 </a>
               </li>
               <li>
                 <a class="is-active">
                   <span class="icon">
-                    <i class="fas fa-address-card" aria-hidden="true" />
-                  </span> Customers</a>
+                    <i
+                      class="fas fa-address-card"
+                      aria-hidden="true"/>
+                </span> Customers</a>
               </li>
             </ul>
             <p class="menu-label">
@@ -371,32 +373,42 @@
               <li>
                 <a>
                   <span class="icon">
-                    <i class="fas fa-cog" aria-hidden="true" />
-                  </span> Team Settings</a>
+                    <i
+                      class="fas fa-cog"
+                      aria-hidden="true"/>
+                </span> Team Settings</a>
               </li>
               <li>
                 <a>
                   <span class="icon">
-                    <i class="fas fa-child" aria-hidden="true" />
-                  </span> Manage Your Team</a>
+                    <i
+                      class="fas fa-child"
+                      aria-hidden="true"/>
+                </span> Manage Your Team</a>
               </li>
               <li class="is-disabled">
                 <a>
                   <span class="icon">
-                    <i class="fas fa-at" aria-hidden="true" />
-                  </span> Invitations</a>
+                    <i
+                      class="fas fa-at"
+                      aria-hidden="true"/>
+                </span> Invitations</a>
               </li>
               <li>
                 <a>
                   <span class="icon">
-                    <i class="fas fa-cloudversify" aria-hidden="true" />
-                  </span> Cloud Storage Settings</a>
+                    <i
+                      class="fas fa-cloudversify"
+                      aria-hidden="true"/>
+                </span> Cloud Storage Settings</a>
               </li>
               <li>
                 <a>
                   <span class="icon">
-                    <i class="fas fa-user" aria-hidden="true" />
-                  </span> Authentication</a>
+                    <i
+                      class="fas fa-user"
+                      aria-hidden="true"/>
+                </span> Authentication</a>
               </li>
             </ul>
             <p class="menu-label">
@@ -406,25 +418,31 @@
               <li>
                 <a>
                   <span class="icon">
-                    <i class="fas fa-amazon-pay" aria-hidden="true" />
-                  </span> Payments</a>
+                    <i
+                      class="fas fa-amazon-pay"
+                      aria-hidden="true"/>
+                </span> Payments</a>
               </li>
               <li>
                 <a>
                   <span class="icon">
-                    <i class="fas fa-align-center" aria-hidden="true" />
-                  </span> Transfers</a>
+                    <i
+                      class="fas fa-align-center"
+                      aria-hidden="true"/>
+                </span> Transfers</a>
               </li>
               <li>
                 <a>
                   <span class="icon">
-                    <i class="fas fa-briefcase" aria-hidden="true" />
-                  </span> Balance</a>
+                    <i
+                      class="fas fa-briefcase"
+                      aria-hidden="true"/>
+                </span> Balance</a>
               </li>
             </ul>
           </aside>
         </div>
-        <br/>
+        <br>
         <details>
           <summary>
             <span>How to use</span>
@@ -437,21 +455,21 @@
 &lt;div&gt;
             </pre>
           </p>
-          <br/>
+          <br>
           <p>
             <span class="tag is-info">Info</span> Toggling
             <code>is-active</code> class on
-            <code>navigation-view</code> will open/close it.</p>
+          <code>navigation-view</code> will open/close it.</p>
           <p>
             <span class="tag is-info">Info</span> You can also add
-            <code>is-static</code> class to make navbar like demo. (Always visible, toggle icon description). </p>
+          <code>is-static</code> class to make navbar like demo. (Always visible, toggle icon description). </p>
           <p>
             <span class="tag is-warning">Note</span> You can also use dark varient by adding
-            <code>is-dark</code> class. </p>
+          <code>is-dark</code> class. </p>
           <p>
             <span class="tag is-warning">Note</span> Please make sure to add
             <code>has-static-navigation-view</code> class to body
-            <em>if</em> you are using static navigation bar.</p>
+          <em>if</em> you are using static navigation bar.</p>
         </details>
       </div>
     </section>

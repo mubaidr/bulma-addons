@@ -36,20 +36,20 @@
                 <code>
                   import 'bulma-addons/css/bulma.css'
                 </code>
-                <br/>or<br/>
+                <br>or<br>
                 <code>
                   import 'bulma-addons/bulma.sass'
                 </code>
               </p>
               <p>
                 <span class="tag is-info">Info:</span> You can also import only the required addon from this package;
-                <br/>
+                <br>
                 <code>
-                  import 'bulma-addons/css/addons/form.css'
+                  import 'bulma-addons/css/addons/navigation-view.css'
                 </code>
-                <br/>or<br/>
+                <br>or<br>
                 <code>
-                  import 'bulma-addons/css/addons/form.sass'
+                  import 'bulma-addons/src/sass/navigation-view.sass'
                 </code>
               </p>
             </li>
