@@ -70,7 +70,7 @@
               <span class="icon">
                 <i class="fas fa-home" />
               </span>
-              <span>Getting Started</span>
+              Getting Started
             </router-link>
           </li>
           <li>
@@ -81,7 +81,7 @@
               <span class="icon">
                 <i class="fas fa-object-group" />
               </span>
-              <span>Addons</span>
+              Addons
             </router-link>
           </li>
         </ul>
@@ -99,7 +99,7 @@
                   class="fas fa-star"
                   aria-hidden="true" />
               </span>
-              <span>Github</span>
+              Github
             </a>
           </li>
           <li>
@@ -112,7 +112,7 @@
                   class="fas fa-download"
                   aria-hidden="true" />
               </span>
-              <span>Download</span>
+              Download
             </a>
           </li>
         </ul>
