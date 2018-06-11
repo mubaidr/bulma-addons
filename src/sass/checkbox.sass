@@ -3,8 +3,8 @@
 
 .checkbox
   user-select: none
-  cursor: pointer
   & > [type="checkbox"]
+    cursor: pointer
     display: inline-block
     position: relative
     z-index: 1
@@ -58,3 +58,7 @@
           &:before
             background-color: $color
             border-color: darken($color, 1%)
+        &:disabled
+          &:before
+            background-color: lighten(desaturate($color, 50%), 10%)
+            border-color: lighten(desaturate($color, 50%), 9%)
