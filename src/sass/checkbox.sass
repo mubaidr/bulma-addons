@@ -14,6 +14,16 @@
     padding: 0
     margin: 0
     visibility: hidden
+    &:disabled
+      cursor: not-allowed
+      &:before
+        opacity: 0.75
+        background-color: $grey-light!important
+        border-color: $grey-light!important
+      &:checked
+        &:before
+          background-color: $grey-light!important
+          border-color: $grey-light!important
     &:before
       visibility: visible
       content: ''
@@ -42,12 +52,12 @@
       transform: rotate(30deg)
     &:checked
       &:before
-        background-color: $primary
-        border-color: darken($primary, 1%)
+        background-color: $grey-light
+        border-color: $grey-light
       &:after
         display: block
   &:hover
-    & > [type="checkbox"]
+    & > [type="checkbox"]:not(:disabled)
       &:before
         border-color: rgba(0,0,0,0.5)
   @each $name, $pair in $colors
@@ -58,7 +68,3 @@
           &:before
             background-color: $color
             border-color: darken($color, 1%)
-        &:disabled
-          &:before
-            background-color: lighten(desaturate($color, 50%), 10%)
-            border-color: lighten(desaturate($color, 50%), 9%)

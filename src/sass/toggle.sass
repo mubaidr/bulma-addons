@@ -17,6 +17,19 @@
     padding: 0
     margin: 0
     visibility: hidden
+    &:disabled
+      cursor: not-allowed
+      &:before
+        opacity: 0.75
+        border-color: $grey-light!important
+      &:after
+        background-color: $grey-light!important
+      &:checked
+        &:before
+          background-color: $grey-light!important
+          border-color: $grey-light!important
+        &:after
+          background-color: $white!important
     &:before
       visibility: visible
       content: ''
@@ -47,7 +60,7 @@
         left: 65%
         background-color: #fff
   &:hover
-    & > [type="checkbox"]
+    & > [type="checkbox"]:not(:disabled)
       &:before
         border-color: rgba(0,0,0,0.5)
   @each $name, $pair in $colors
@@ -58,7 +71,3 @@
           &:before
             background-color: $color
             border-color: darken($color, 1%)
-        &:disabled
-          &:before
-            background-color: lighten(desaturate($color, 50%), 10%)
-            border-color: lighten(desaturate($color, 50%), 9%)

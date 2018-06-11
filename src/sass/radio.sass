@@ -13,6 +13,16 @@
     padding: 0
     margin: 0
     visibility: hidden
+    &:disabled
+      cursor: not-allowed
+      &:before
+        opacity: 0.75
+        border-color: $grey-light!important
+      &:checked
+        &:before
+          border-color: $grey-light!important
+        &:after
+          background-color: $grey-light!important
     &:before
       visibility: visible
       content: ''
@@ -38,21 +48,17 @@
       background-color: $dark
     &:checked
       &:before
-        border-color: $primary
+        border-color: $grey-light
       &:after
         display: block
   &:hover
-    & > [type="radio"]:not(:checked)
+    & > [type="radio"]:not(:checked):not(:disabled)
       &:before
         border-color: rgba(0,0,0,0.5)
   @each $name, $pair in $colors
     $color: nth($pair, 1)
     &.is-#{$name}
-      & > [type="checkbox"]
+      & > [type="radio"]
         &:checked
           &:before
             border-color: $primary
-        &:disabled
-          &:before
-            background-color: lighten(desaturate($color, 50%), 10%)
-            border-color: lighten(desaturate($color, 50%), 9%)

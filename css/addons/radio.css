@@ -17,6 +17,23 @@
   visibility: hidden;
 }
 
+.radio > [type="radio"]:disabled {
+  cursor: not-allowed;
+}
+
+.radio > [type="radio"]:disabled:before {
+  opacity: 0.75;
+  border-color: #b5b5b5 !important;
+}
+
+.radio > [type="radio"]:disabled:checked:before {
+  border-color: #b5b5b5 !important;
+}
+
+.radio > [type="radio"]:disabled:checked:after {
+  background-color: #b5b5b5 !important;
+}
+
 .radio > [type="radio"]:before {
   visibility: visible;
   content: '';
@@ -45,54 +62,54 @@
 }
 
 .radio > [type="radio"]:checked:before {
-  border-color: #00d1b2;
+  border-color: #b5b5b5;
 }
 
 .radio > [type="radio"]:checked:after {
   display: block;
 }
 
-.radio:hover > [type="radio"]:not(:checked):before {
+.radio:hover > [type="radio"]:not(:checked):not(:disabled):before {
   border-color: rgba(0, 0, 0, 0.5);
 }
 
-.radio.is-white > [type="checkbox"]:checked:before {
+.radio.is-white > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-black > [type="checkbox"]:checked:before {
+.radio.is-black > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-light > [type="checkbox"]:checked:before {
+.radio.is-light > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-dark > [type="checkbox"]:checked:before {
+.radio.is-dark > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-primary > [type="checkbox"]:checked:before {
+.radio.is-primary > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-link > [type="checkbox"]:checked:before {
+.radio.is-link > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-info > [type="checkbox"]:checked:before {
+.radio.is-info > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-success > [type="checkbox"]:checked:before {
+.radio.is-success > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-warning > [type="checkbox"]:checked:before {
+.radio.is-warning > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-danger > [type="checkbox"]:checked:before {
+.radio.is-danger > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
