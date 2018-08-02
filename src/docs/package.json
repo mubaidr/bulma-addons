@@ -1,6 +1,10 @@
 {
   "author": "Muhammad Ubaid Raza <mubaidr@gmail.com>",
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
   "dependencies": {
     "bulma": "^0.7.1",
     "vue": "^2.5.16",
@@ -38,10 +42,8 @@
   "name": "bulma-addons",
   "private": true,
   "scripts": {
-    "build":
-      "cross-env NODE_ENV=production webpack --mode production --progress --hide-modules",
-    "dev":
-      "cross-env NODE_ENV=development webpack-dev-server --mode development --progress --hot --watch"
+    "build": "cross-env NODE_ENV=production webpack --mode production --progress --hide-modules",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --progress --hot --watch"
   },
   "version": "1.0.0"
 }

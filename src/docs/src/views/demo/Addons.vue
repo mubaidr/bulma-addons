@@ -7,6 +7,7 @@
       <hr>
       <h2 class="subtitle is-4">Navigation View</h2>
       <p>The navigation view control provides a collapsible navigation menu for top-level navigation in your app.</p>
+      <p>You can set min & max size using `$nav-view-min-width` & `$nav-view-max-width` respectively.</p>
       <h3 class="subtitle is-5">Static:</h3>
       <iframe
         height="640"
