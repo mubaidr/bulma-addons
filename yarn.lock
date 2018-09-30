@@ -1248,8 +1248,8 @@ for-in@^1.0.2:
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
 
 foreach-cli@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/foreach-cli/-/foreach-cli-1.8.0.tgz#b601efac69fe08694d71b2ca8b58bd8c77649b04"
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/foreach-cli/-/foreach-cli-1.8.1.tgz#abe824843885c7777000b1692b3cc0483073fadf"
   dependencies:
     "@danielkalen/listr" "^0.5.0"
     chalk "^1.1.3"
