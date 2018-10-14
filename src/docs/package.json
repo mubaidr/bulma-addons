@@ -6,7 +6,7 @@
     "not ie <= 8"
   ],
   "dependencies": {
-    "bulma": "^0.7.1",
+    "bulma": "^0.7.2",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1"
   },
