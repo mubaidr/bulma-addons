@@ -5,7 +5,7 @@
       </h1>
 
       <hr>
-      <h2 class="subtitle is-4">Navigation View</h2>
+      <h2 class="subtitle is-3">Navigation View</h2>
       <p>The navigation view control provides a collapsible navigation menu for top-level navigation in your app.</p>
       <p>You can set min & max size using `$nav-view-min-width` & `$nav-view-max-width` respectively.</p>
       <h3 class="subtitle is-5">Static:</h3>
@@ -32,7 +32,7 @@
       </iframe>
 
       <hr>
-      <h2 class="subtitle is-4">Custom Loader/Spinner</h2>
+      <h2 class="subtitle is-3">Custom Loader/Spinner</h2>
       <p>A simple loader to display indeterminate loading status.</p>
       <iframe
         height="265"
@@ -46,7 +46,7 @@
       </iframe>
 
       <hr>
-      <h2 class="subtitle is-4">Checkbox</h2>
+      <h2 class="subtitle is-3">Checkbox</h2>
       <p>Styled checkbox controls to match your application theme.</p>
       <iframe
         height="265"
@@ -60,7 +60,7 @@
       </iframe>
 
       <hr>
-      <h2 class="subtitle is-4">Toggle</h2>
+      <h2 class="subtitle is-3">Toggle</h2>
       <p>A custom toggle control to match your application theme.</p>
       <iframe
         height="265"
@@ -74,7 +74,7 @@
       </iframe>
 
       <hr>
-      <h2 class="subtitle is-4">Radio</h2>
+      <h2 class="subtitle is-3">Radio</h2>
       <p>Styled radio controls to match your application theme.</p>
       <iframe
         height="265"
@@ -88,7 +88,7 @@
       </iframe>
 
       <hr>
-      <h2 class="subtitle is-4">Highlighted Buttons</h2>
+      <h2 class="subtitle is-3">Highlighted Buttons</h2>
       <p>Highlighted buttons to gain user focus. </p>
       <iframe
         height="324"

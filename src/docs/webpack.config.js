@@ -1,5 +1,6 @@
 const path = require('path')
 const { VueLoaderPlugin } = require('vue-loader')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   entry: {
@@ -7,7 +8,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, '../../docs'),
-    publicPath: '',
+    // publicPath: '/assets/',
     filename: '[name].js',
   },
   module: {
@@ -75,7 +76,10 @@ module.exports = {
   performance: {
     hints: false,
   },
-  plugins: [new VueLoaderPlugin()],
+  plugins: [
+    new VueLoaderPlugin(),
+    new CopyWebpackPlugin([{ from: 'src/assets', to: 'assets' }]),
+  ],
 }
 
 if (process.env.NODE_ENV === 'production') {
