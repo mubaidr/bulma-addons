@@ -7,7 +7,7 @@
   ],
   "dependencies": {
     "bulma": "^0.7.2",
-    "vue": "^2.5.17",
+    "vue": "^2.5.19",
     "vue-router": "^3.0.1"
   },
   "description": "Addons for Bulma CSS framework",
