@@ -7,7 +7,7 @@
   ],
   "dependencies": {
     "bulma": "^0.7.4",
-    "vue": "^2.5.17",
+    "vue": "^2.6.6",
     "vue-router": "^3.0.2"
   },
   "description": "Addons for Bulma CSS framework",
@@ -33,7 +33,7 @@
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "vue-loader": "^15.6.2",
-    "vue-template-compiler": "^2.5.17",
+    "vue-template-compiler": "^2.6.6",
     "webpack": "^4.29.4",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.1.14"
