@@ -23,7 +23,7 @@
     "node-sass": "^4.9.4",
     "node-sass-import": "^2.0.1",
     "postcss-cli": "^6.0.1",
-    "rimraf": "^2.6.2"
+    "rimraf": "^3.0.0"
   },
   "files": [
     "css",
