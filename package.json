@@ -4,7 +4,7 @@
     "url": "https://github.com/mubaidr/bulma-addons/issues"
   },
   "dependencies": {
-    "bulma": "^0.7.2"
+    "bulma": "^0.8.0"
   },
   "description": "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
   "devDependencies": {
