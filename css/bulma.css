@@ -9,6 +9,9 @@
 .checkbox > [type="checkbox"] {
   cursor: pointer;
   display: inline-block;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   position: relative;
   z-index: 1;
   width: 1.5em;
@@ -45,6 +48,7 @@
   background-color: white;
   border: 2px solid #dbdbdb;
   border-radius: 2px;
+  -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
 }
 
@@ -173,6 +177,7 @@
   border-radius: 50%;
   background-color: white;
   border: 2px solid #dbdbdb;
+  -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
 }
 
@@ -257,6 +262,9 @@
 .toggle > [type="checkbox"] {
   display: inline-block;
   position: relative;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   z-index: 1;
   width: 3.5em;
   height: 1.5em;
@@ -311,6 +319,7 @@
   height: 60%;
   width: 25%;
   background-color: #363636;
+  -webkit-transition: left 0.25s ease-out;
   transition: left 0.25s ease-out;
 }
 
@@ -659,6 +668,7 @@
   width: 280px;
   max-width: 280px;
   min-width: 280px;
+  -webkit-transition: width 258ms ease-out, -webkit-transform 258ms ease-out;
   transition: width 258ms ease-out, -webkit-transform 258ms ease-out;
   transition: transform 258ms ease-out, width 258ms ease-out;
   transition: transform 258ms ease-out, width 258ms ease-out, -webkit-transform 258ms ease-out;
@@ -704,6 +714,7 @@
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
   box-shadow: none;
+  -webkit-transition: none;
   transition: none;
 }
 
@@ -725,6 +736,7 @@
 .navigation-view.is-static.is-active {
   width: 100%;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  -webkit-transition: width 258ms ease-out, -webkit-transform 258ms ease-out;
   transition: width 258ms ease-out, -webkit-transform 258ms ease-out;
   transition: transform 258ms ease-out, width 258ms ease-out;
   transition: transform 258ms ease-out, width 258ms ease-out, -webkit-transform 258ms ease-out;
@@ -738,7 +750,7 @@
   text-align: left;
 }
 
-@media screen and (min-width: 1088px) {
+@media screen and (min-width: 1024px) {
   .navigation-view.is-static {
     width: 100%;
     box-shadow: none !important;
@@ -780,7 +792,7 @@ body.has-static-navigation-view {
   padding-left: 75px;
 }
 
-@media screen and (min-width: 1088px) {
+@media screen and (min-width: 1024px) {
   body.has-static-navigation-view {
     padding-left: 280px;
   }

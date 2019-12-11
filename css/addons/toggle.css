@@ -14,6 +14,9 @@
 .toggle > [type="checkbox"] {
   display: inline-block;
   position: relative;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   z-index: 1;
   width: 3.5em;
   height: 1.5em;
@@ -68,6 +71,7 @@
   height: 60%;
   width: 25%;
   background-color: #363636;
+  -webkit-transition: left 0.25s ease-out;
   transition: left 0.25s ease-out;
 }
 
