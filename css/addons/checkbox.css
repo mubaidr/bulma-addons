@@ -8,6 +8,9 @@
 .checkbox > [type="checkbox"] {
   cursor: pointer;
   display: inline-block;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   position: relative;
   z-index: 1;
   width: 1.5em;
@@ -44,6 +47,7 @@
   background-color: white;
   border: 2px solid #dbdbdb;
   border-radius: 2px;
+  -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
 }
 

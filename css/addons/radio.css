@@ -7,6 +7,9 @@
 
 .radio > [type="radio"] {
   display: inline-block;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   position: relative;
   z-index: 1;
   width: 1.5em;
@@ -45,6 +48,7 @@
   border-radius: 50%;
   background-color: white;
   border: 2px solid #dbdbdb;
+  -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
 }
 
