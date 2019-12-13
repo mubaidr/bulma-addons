@@ -111,13 +111,13 @@
 }
 
 .checkbox.is-info > [type="checkbox"]:checked:before {
-  background-color: #209cee;
-  border-color: #1b9aee;
+  background-color: #3298dc;
+  border-color: #2e96dc;
 }
 
 .checkbox.is-success > [type="checkbox"]:checked:before {
-  background-color: #23d160;
-  border-color: #23cd5e;
+  background-color: #48c774;
+  border-color: #44c571;
 }
 
 .checkbox.is-warning > [type="checkbox"]:checked:before {
@@ -126,8 +126,8 @@
 }
 
 .checkbox.is-danger > [type="checkbox"]:checked:before {
-  background-color: #ff3860;
-  border-color: #ff335c;
+  background-color: #f14668;
+  border-color: #f14164;
 }
 
 .radio {
@@ -371,13 +371,13 @@
 }
 
 .toggle.is-info > [type="checkbox"]:checked:before {
-  background-color: #209cee;
-  border-color: #1b9aee;
+  background-color: #3298dc;
+  border-color: #2e96dc;
 }
 
 .toggle.is-success > [type="checkbox"]:checked:before {
-  background-color: #23d160;
-  border-color: #23cd5e;
+  background-color: #48c774;
+  border-color: #44c571;
 }
 
 .toggle.is-warning > [type="checkbox"]:checked:before {
@@ -386,8 +386,8 @@
 }
 
 .toggle.is-danger > [type="checkbox"]:checked:before {
-  background-color: #ff3860;
-  border-color: #ff335c;
+  background-color: #f14668;
+  border-color: #f14164;
 }
 
 .custom-loader {
@@ -483,11 +483,11 @@
 }
 
 .is-info .dot .inner-dot {
-  background-color: #209cee;
+  background-color: #3298dc;
 }
 
 .is-success .dot .inner-dot {
-  background-color: #23d160;
+  background-color: #48c774;
 }
 
 .is-warning .dot .inner-dot {
@@ -495,7 +495,7 @@
 }
 
 .is-danger .dot .inner-dot {
-  background-color: #ff3860;
+  background-color: #f14668;
 }
 
 @-webkit-keyframes orbit {
@@ -647,11 +647,11 @@
 }
 
 .is-highlighted.is-info {
-  box-shadow: 0 1px 25px #0f81cc;
+  box-shadow: 0 1px 25px #207dbc;
 }
 
 .is-highlighted.is-success {
-  box-shadow: 0 1px 25px #1ca64c;
+  box-shadow: 0 1px 25px #34a85c;
 }
 
 .is-highlighted.is-warning {
@@ -659,7 +659,7 @@
 }
 
 .is-highlighted.is-danger {
-  box-shadow: 0 1px 25px #ff0537;
+  box-shadow: 0 1px 25px #ee1742;
 }
 
 .navigation-view {

@@ -4,26 +4,26 @@
     "url": "https://github.com/mubaidr/bulma-addons/issues"
   },
   "dependencies": {
-    "bulma": "^0.7.2"
+    "bulma": "^0.8.0"
   },
-  "description": "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
+  "description": "Addons for Bulma CSS framework",
   "devDependencies": {
-    "autoprefixer": "^9.3.1",
-    "clean-css-cli": "^4.2.1",
-    "eslint": "^5.8.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^3.1.0",
+    "autoprefixer": "^9.7.3",
+    "clean-css-cli": "^4.3.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-plugin-html": "^4.0.6",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1",
-    "eslint-plugin-vue": "^4.7.1",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-vue": "^6.0.1",
     "foreach-cli": "^1.8.1",
-    "node-sass": "^4.9.4",
+    "node-sass": "^4.13.0",
     "node-sass-import": "^2.0.1",
-    "postcss-cli": "^6.0.1",
-    "rimraf": "^2.6.2"
+    "postcss-cli": "^6.1.3",
+    "rimraf": "^3.0.0"
   },
   "files": [
     "css",
@@ -47,20 +47,20 @@
     "url": "git+https://github.com/mubaidr/bulma-addons.git"
   },
   "scripts": {
-    "build": "yarn run build-package && yarn run build-addons",
-    "build-addons": "rimraf css/addons && yarn run build-sass-addons && yarn run build-autoprefix-addons && yarn run build-minify-addons",
+    "build": "npm run build-package && npm run build-addons",
+    "build-addons": "rimraf css/addons && npm run build-sass-addons && npm run build-autoprefix-addons && npm run build-minify-addons",
     "build-autoprefix": "postcss --use autoprefixer --map true --output css/bulma.css css/bulma.css",
     "build-autoprefix-addons": "postcss --use autoprefixer --map true --dir css/addons css/addons/*.css",
-    "build-docs": "cd src/docs && yarn run build && cd..",
+    "build-docs": "cd src/docs && npm run build && cd..",
     "build-minify": "cleancss --level 2 -o css/bulma.min.css css/bulma.css",
     "build-minify-addons": "foreach -g \"./css/addons/*.css\" -x \"cleancss --level 2 #{path} -o css/addons/#{name}.min.css\" --no-c",
-    "build-package": "yarn run build-sass && yarn run build-autoprefix && yarn run build-minify",
+    "build-package": "npm run build-sass && npm run build-autoprefix && npm run build-minify",
     "build-sass": "node-sass --output-style expanded bulma.sass css/bulma.css --importer node_modules/node-sass-import",
     "build-sass-addons": "node-sass --output-style expanded -o css/addons src/sass --importer node_modules/node-sass-import",
-    "dev": "cd src/docs && yarn run dev && cd..",
+    "dev": "cd src/docs && npm run dev && cd..",
     "lint": "eslint --ext .js,.vue --fix src/",
     "test": "sh test/sass-compile-tester.sh"
   },
   "style": "css/bulma.css",
-  "version": "0.1.13"
+  "version": "0.1.15"
 }

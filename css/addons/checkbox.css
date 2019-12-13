@@ -110,13 +110,13 @@
 }
 
 .checkbox.is-info > [type="checkbox"]:checked:before {
-  background-color: #209cee;
-  border-color: #1b9aee;
+  background-color: #3298dc;
+  border-color: #2e96dc;
 }
 
 .checkbox.is-success > [type="checkbox"]:checked:before {
-  background-color: #23d160;
-  border-color: #23cd5e;
+  background-color: #48c774;
+  border-color: #44c571;
 }
 
 .checkbox.is-warning > [type="checkbox"]:checked:before {
@@ -125,8 +125,8 @@
 }
 
 .checkbox.is-danger > [type="checkbox"]:checked:before {
-  background-color: #ff3860;
-  border-color: #ff335c;
+  background-color: #f14668;
+  border-color: #f14164;
 }
 
 /*# sourceMappingURL=checkbox.css.map */

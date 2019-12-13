@@ -91,11 +91,11 @@
 }
 
 .is-info .dot .inner-dot {
-  background-color: #209cee;
+  background-color: #3298dc;
 }
 
 .is-success .dot .inner-dot {
-  background-color: #23d160;
+  background-color: #48c774;
 }
 
 .is-warning .dot .inner-dot {
@@ -103,7 +103,7 @@
 }
 
 .is-danger .dot .inner-dot {
-  background-color: #ff3860;
+  background-color: #f14668;
 }
 
 @-webkit-keyframes orbit {
