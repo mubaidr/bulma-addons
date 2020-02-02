@@ -8,22 +8,26 @@
   },
   "description": "Addons for Bulma CSS framework",
   "devDependencies": {
-    "autoprefixer": "^9.7.3",
+    "@types/autoprefixer": "^9.6.1",
+    "@types/eslint": "^6.1.7",
+    "@types/node-sass": "^4.11.0",
+    "@types/rimraf": "^2.0.3",
+    "autoprefixer": "^9.7.4",
     "clean-css-cli": "^4.3.0",
-    "eslint": "^6.7.2",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-prettier": "^6.10.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-plugin-html": "^6.0.0",
-    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-vue": "^6.0.1",
+    "eslint-plugin-react": "^7.18.2",
+    "eslint-plugin-vue": "^6.1.2",
     "foreach-cli": "^1.8.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "node-sass-import": "^2.0.1",
-    "postcss-cli": "^6.1.3",
-    "rimraf": "^3.0.0"
+    "postcss-cli": "^7.1.0",
+    "rimraf": "^3.0.1"
   },
   "files": [
     "css",
@@ -62,5 +66,5 @@
     "test": "sh test/sass-compile-tester.sh"
   },
   "style": "css/bulma.css",
-  "version": "0.1.15"
+  "version": "0.1.16"
 }
