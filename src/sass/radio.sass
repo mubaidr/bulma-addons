@@ -58,8 +58,9 @@
         border-color: rgba(0,0,0,0.5)
   @each $name, $pair in $colors
     $color: nth($pair, 1)
-    &.is-#{$name}
-      & > [type="radio"]
-        &:checked
-          &:before
-            border-color: $primary
+    .radio
+      &.is-#{$name}
+        & > [type="radio"]
+          &:checked
+            &:before
+              border-color: $primary

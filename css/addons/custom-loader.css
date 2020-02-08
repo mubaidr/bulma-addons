@@ -66,43 +66,43 @@
           animation-delay: 1.55s;
 }
 
-.is-white .dot .inner-dot {
+.custom-loader.is-white .dot .inner-dot {
   background-color: white;
 }
 
-.is-black .dot .inner-dot {
+.custom-loader.is-black .dot .inner-dot {
   background-color: #0a0a0a;
 }
 
-.is-light .dot .inner-dot {
+.custom-loader.is-light .dot .inner-dot {
   background-color: whitesmoke;
 }
 
-.is-dark .dot .inner-dot {
+.custom-loader.is-dark .dot .inner-dot {
   background-color: #363636;
 }
 
-.is-primary .dot .inner-dot {
+.custom-loader.is-primary .dot .inner-dot {
   background-color: #00d1b2;
 }
 
-.is-link .dot .inner-dot {
+.custom-loader.is-link .dot .inner-dot {
   background-color: #3273dc;
 }
 
-.is-info .dot .inner-dot {
+.custom-loader.is-info .dot .inner-dot {
   background-color: #3298dc;
 }
 
-.is-success .dot .inner-dot {
+.custom-loader.is-success .dot .inner-dot {
   background-color: #48c774;
 }
 
-.is-warning .dot .inner-dot {
+.custom-loader.is-warning .dot .inner-dot {
   background-color: #ffdd57;
 }
 
-.is-danger .dot .inner-dot {
+.custom-loader.is-danger .dot .inner-dot {
   background-color: #f14668;
 }
 

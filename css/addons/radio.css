@@ -77,43 +77,43 @@
   border-color: rgba(0, 0, 0, 0.5);
 }
 
-.radio.is-white > [type="radio"]:checked:before {
+.radio .radio.is-white > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-black > [type="radio"]:checked:before {
+.radio .radio.is-black > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-light > [type="radio"]:checked:before {
+.radio .radio.is-light > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-dark > [type="radio"]:checked:before {
+.radio .radio.is-dark > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-primary > [type="radio"]:checked:before {
+.radio .radio.is-primary > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-link > [type="radio"]:checked:before {
+.radio .radio.is-link > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-info > [type="radio"]:checked:before {
+.radio .radio.is-info > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-success > [type="radio"]:checked:before {
+.radio .radio.is-success > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-warning > [type="radio"]:checked:before {
+.radio .radio.is-warning > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-danger > [type="radio"]:checked:before {
+.radio .radio.is-danger > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 

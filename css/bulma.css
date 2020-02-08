@@ -80,52 +80,52 @@
   border-color: rgba(0, 0, 0, 0.5);
 }
 
-.checkbox.is-white > [type="checkbox"]:checked:before {
+.checkbox .checkbox.is-white > [type="checkbox"]:checked:before {
   background-color: white;
   border-color: #fcfcfc;
 }
 
-.checkbox.is-black > [type="checkbox"]:checked:before {
+.checkbox .checkbox.is-black > [type="checkbox"]:checked:before {
   background-color: #0a0a0a;
   border-color: #080808;
 }
 
-.checkbox.is-light > [type="checkbox"]:checked:before {
+.checkbox .checkbox.is-light > [type="checkbox"]:checked:before {
   background-color: whitesmoke;
   border-color: #f2f2f2;
 }
 
-.checkbox.is-dark > [type="checkbox"]:checked:before {
+.checkbox .checkbox.is-dark > [type="checkbox"]:checked:before {
   background-color: #363636;
   border-color: #333333;
 }
 
-.checkbox.is-primary > [type="checkbox"]:checked:before {
+.checkbox .checkbox.is-primary > [type="checkbox"]:checked:before {
   background-color: #00d1b2;
   border-color: #00ccad;
 }
 
-.checkbox.is-link > [type="checkbox"]:checked:before {
+.checkbox .checkbox.is-link > [type="checkbox"]:checked:before {
   background-color: #3273dc;
   border-color: #2e70dc;
 }
 
-.checkbox.is-info > [type="checkbox"]:checked:before {
+.checkbox .checkbox.is-info > [type="checkbox"]:checked:before {
   background-color: #3298dc;
   border-color: #2e96dc;
 }
 
-.checkbox.is-success > [type="checkbox"]:checked:before {
+.checkbox .checkbox.is-success > [type="checkbox"]:checked:before {
   background-color: #48c774;
   border-color: #44c571;
 }
 
-.checkbox.is-warning > [type="checkbox"]:checked:before {
+.checkbox .checkbox.is-warning > [type="checkbox"]:checked:before {
   background-color: #ffdd57;
   border-color: #ffdc52;
 }
 
-.checkbox.is-danger > [type="checkbox"]:checked:before {
+.checkbox .checkbox.is-danger > [type="checkbox"]:checked:before {
   background-color: #f14668;
   border-color: #f14164;
 }
@@ -209,43 +209,43 @@
   border-color: rgba(0, 0, 0, 0.5);
 }
 
-.radio.is-white > [type="radio"]:checked:before {
+.radio .radio.is-white > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-black > [type="radio"]:checked:before {
+.radio .radio.is-black > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-light > [type="radio"]:checked:before {
+.radio .radio.is-light > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-dark > [type="radio"]:checked:before {
+.radio .radio.is-dark > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-primary > [type="radio"]:checked:before {
+.radio .radio.is-primary > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-link > [type="radio"]:checked:before {
+.radio .radio.is-link > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-info > [type="radio"]:checked:before {
+.radio .radio.is-info > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-success > [type="radio"]:checked:before {
+.radio .radio.is-success > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-warning > [type="radio"]:checked:before {
+.radio .radio.is-warning > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
-.radio.is-danger > [type="radio"]:checked:before {
+.radio .radio.is-danger > [type="radio"]:checked:before {
   border-color: #00d1b2;
 }
 
@@ -340,52 +340,52 @@
   border-color: rgba(0, 0, 0, 0.5);
 }
 
-.toggle.is-white > [type="checkbox"]:checked:before {
+.toggle .toggle.is-white > [type="checkbox"]:checked:before {
   background-color: white;
   border-color: #fcfcfc;
 }
 
-.toggle.is-black > [type="checkbox"]:checked:before {
+.toggle .toggle.is-black > [type="checkbox"]:checked:before {
   background-color: #0a0a0a;
   border-color: #080808;
 }
 
-.toggle.is-light > [type="checkbox"]:checked:before {
+.toggle .toggle.is-light > [type="checkbox"]:checked:before {
   background-color: whitesmoke;
   border-color: #f2f2f2;
 }
 
-.toggle.is-dark > [type="checkbox"]:checked:before {
+.toggle .toggle.is-dark > [type="checkbox"]:checked:before {
   background-color: #363636;
   border-color: #333333;
 }
 
-.toggle.is-primary > [type="checkbox"]:checked:before {
+.toggle .toggle.is-primary > [type="checkbox"]:checked:before {
   background-color: #00d1b2;
   border-color: #00ccad;
 }
 
-.toggle.is-link > [type="checkbox"]:checked:before {
+.toggle .toggle.is-link > [type="checkbox"]:checked:before {
   background-color: #3273dc;
   border-color: #2e70dc;
 }
 
-.toggle.is-info > [type="checkbox"]:checked:before {
+.toggle .toggle.is-info > [type="checkbox"]:checked:before {
   background-color: #3298dc;
   border-color: #2e96dc;
 }
 
-.toggle.is-success > [type="checkbox"]:checked:before {
+.toggle .toggle.is-success > [type="checkbox"]:checked:before {
   background-color: #48c774;
   border-color: #44c571;
 }
 
-.toggle.is-warning > [type="checkbox"]:checked:before {
+.toggle .toggle.is-warning > [type="checkbox"]:checked:before {
   background-color: #ffdd57;
   border-color: #ffdc52;
 }
 
-.toggle.is-danger > [type="checkbox"]:checked:before {
+.toggle .toggle.is-danger > [type="checkbox"]:checked:before {
   background-color: #f14668;
   border-color: #f14164;
 }
@@ -458,43 +458,43 @@
           animation-delay: 1.55s;
 }
 
-.is-white .dot .inner-dot {
+.custom-loader.is-white .dot .inner-dot {
   background-color: white;
 }
 
-.is-black .dot .inner-dot {
+.custom-loader.is-black .dot .inner-dot {
   background-color: #0a0a0a;
 }
 
-.is-light .dot .inner-dot {
+.custom-loader.is-light .dot .inner-dot {
   background-color: whitesmoke;
 }
 
-.is-dark .dot .inner-dot {
+.custom-loader.is-dark .dot .inner-dot {
   background-color: #363636;
 }
 
-.is-primary .dot .inner-dot {
+.custom-loader.is-primary .dot .inner-dot {
   background-color: #00d1b2;
 }
 
-.is-link .dot .inner-dot {
+.custom-loader.is-link .dot .inner-dot {
   background-color: #3273dc;
 }
 
-.is-info .dot .inner-dot {
+.custom-loader.is-info .dot .inner-dot {
   background-color: #3298dc;
 }
 
-.is-success .dot .inner-dot {
+.custom-loader.is-success .dot .inner-dot {
   background-color: #48c774;
 }
 
-.is-warning .dot .inner-dot {
+.custom-loader.is-warning .dot .inner-dot {
   background-color: #ffdd57;
 }
 
-.is-danger .dot .inner-dot {
+.custom-loader.is-danger .dot .inner-dot {
   background-color: #f14668;
 }
 
@@ -622,43 +622,43 @@
   box-shadow: 0 1px 25px #b5b5b5;
 }
 
-.is-highlighted.is-white {
+.is-highlighted .is-highlighted.is-white {
   box-shadow: 0 1px 25px #e6e6e6;
 }
 
-.is-highlighted.is-black {
+.is-highlighted .is-highlighted.is-black {
   box-shadow: 0 1px 25px black;
 }
 
-.is-highlighted.is-light {
+.is-highlighted .is-highlighted.is-light {
   box-shadow: 0 1px 25px #dbdbdb;
 }
 
-.is-highlighted.is-dark {
+.is-highlighted .is-highlighted.is-dark {
   box-shadow: 0 1px 25px #1c1c1c;
 }
 
-.is-highlighted.is-primary {
+.is-highlighted .is-highlighted.is-primary {
   box-shadow: 0 1px 25px #009e86;
 }
 
-.is-highlighted.is-link {
+.is-highlighted .is-highlighted.is-link {
   box-shadow: 0 1px 25px #205bbc;
 }
 
-.is-highlighted.is-info {
+.is-highlighted .is-highlighted.is-info {
   box-shadow: 0 1px 25px #207dbc;
 }
 
-.is-highlighted.is-success {
+.is-highlighted .is-highlighted.is-success {
   box-shadow: 0 1px 25px #34a85c;
 }
 
-.is-highlighted.is-warning {
+.is-highlighted .is-highlighted.is-warning {
   box-shadow: 0 1px 25px #ffd324;
 }
 
-.is-highlighted.is-danger {
+.is-highlighted .is-highlighted.is-danger {
   box-shadow: 0 1px 25px #ee1742;
 }
 

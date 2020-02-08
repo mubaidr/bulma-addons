@@ -42,10 +42,11 @@
       animation-delay: 1.55s
 @each $name, $pair in $colors
   $color: nth($pair, 1)
-  &.is-#{$name}
-    .dot
-      .inner-dot
-        background-color: $color
+  .custom-loader
+    &.is-#{$name}
+      .dot
+        .inner-dot
+          background-color: $color
 
 // Custom Loader animation
 @keyframes orbit

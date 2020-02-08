@@ -66,9 +66,10 @@
         border-color: rgba(0,0,0,0.5)
   @each $name, $pair in $colors
     $color: nth($pair, 1)
-    &.is-#{$name}
-      & > [type="checkbox"]
-        &:checked
-          &:before
-            background-color: $color
-            border-color: darken($color, 1%)
+    .toggle
+      &.is-#{$name}
+        & > [type="checkbox"]
+          &:checked
+            &:before
+              background-color: $color
+              border-color: darken($color, 1%)

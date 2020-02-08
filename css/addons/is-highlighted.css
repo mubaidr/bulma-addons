@@ -2,43 +2,43 @@
   box-shadow: 0 1px 25px #b5b5b5;
 }
 
-.is-highlighted.is-white {
+.is-highlighted .is-highlighted.is-white {
   box-shadow: 0 1px 25px #e6e6e6;
 }
 
-.is-highlighted.is-black {
+.is-highlighted .is-highlighted.is-black {
   box-shadow: 0 1px 25px black;
 }
 
-.is-highlighted.is-light {
+.is-highlighted .is-highlighted.is-light {
   box-shadow: 0 1px 25px #dbdbdb;
 }
 
-.is-highlighted.is-dark {
+.is-highlighted .is-highlighted.is-dark {
   box-shadow: 0 1px 25px #1c1c1c;
 }
 
-.is-highlighted.is-primary {
+.is-highlighted .is-highlighted.is-primary {
   box-shadow: 0 1px 25px #009e86;
 }
 
-.is-highlighted.is-link {
+.is-highlighted .is-highlighted.is-link {
   box-shadow: 0 1px 25px #205bbc;
 }
 
-.is-highlighted.is-info {
+.is-highlighted .is-highlighted.is-info {
   box-shadow: 0 1px 25px #207dbc;
 }
 
-.is-highlighted.is-success {
+.is-highlighted .is-highlighted.is-success {
   box-shadow: 0 1px 25px #34a85c;
 }
 
-.is-highlighted.is-warning {
+.is-highlighted .is-highlighted.is-warning {
   box-shadow: 0 1px 25px #ffd324;
 }
 
-.is-highlighted.is-danger {
+.is-highlighted .is-highlighted.is-danger {
   box-shadow: 0 1px 25px #ee1742;
 }
 

@@ -1,6 +1,7 @@
 const path = require('path')
 const { VueLoaderPlugin } = require('vue-loader')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
+const sass = require('sass')
 
 module.exports = {
   entry: {
@@ -19,22 +20,58 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        use: ['vue-style-loader', 'css-loader', 'sass-loader'],
+        use: [
+          'vue-style-loader',
+          'css-loader',
+          {
+            loader: 'sass-loader',
+            options: {
+              // Prefer `dart-sass`
+              implementation: sass,
+            },
+          },
+        ],
       },
       {
         test: /\.sass$/,
-        use: ['vue-style-loader', 'css-loader', 'sass-loader?indentedSyntax'],
+        use: [
+          'vue-style-loader',
+          'css-loader',
+          {
+            loader: 'sass-loader',
+            options: {
+              // Prefer `dart-sass`
+              implementation: sass,
+            },
+          },
+        ],
       },
       {
         test: /\.vue$/,
         loader: 'vue-loader',
         options: {
           loaders: {
-            scss: ['vue-style-loader', 'css-loader', 'sass-loader'],
+            scss: [
+              'vue-style-loader',
+              'css-loader',
+              {
+                loader: 'sass-loader',
+                options: {
+                  // Prefer `dart-sass`
+                  implementation: sass,
+                },
+              },
+            ],
             sass: [
               'vue-style-loader',
               'css-loader',
-              'sass-loader?indentedSyntax',
+              {
+                loader: 'sass-loader',
+                options: {
+                  // Prefer `dart-sass`
+                  implementation: sass,
+                },
+              },
             ],
           },
         },
