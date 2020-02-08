@@ -5,18 +5,12 @@
         Addons
       </h1>
 
-      <hr />
+      <hr>
       <h2 class="subtitle is-3">
         Navigation View
       </h2>
-      <p>
-        The navigation view control provides a collapsible navigation menu for
-        top-level navigation in your app.
-      </p>
-      <p>
-        You can set min & max size using `$nav-view-min-width` &
-        `$nav-view-max-width` respectively.
-      </p>
+      <p>The navigation view control provides a collapsible navigation menu for top-level navigation in your app.</p>
+      <p>You can set min & max size using `$nav-view-min-width` & `$nav-view-max-width` respectively.</p>
       <h3 class="subtitle is-5">
         Static:
       </h3>
@@ -24,15 +18,12 @@
         height="640"
         scrolling="no"
         title="Radio Buttons"
-        src="//codepen.io/mubaidr/embed/gKPOZ>?height=265&theme-id=dark&default-tab=html,result&embed-version=2"
+        src="//codepen.io/mubaidr/embed/gKPOZR/?height=265&theme-id=dark&default-tab=html,result&embed-version=2"
         frameborder="no"
         allowtransparency="true"
         allowfullscreen="true"
         style="width: 100%;"
-        >See the Pen
-        <a href="https://codepen.io/mubaidr/pen/gKPOZR/">Radio Buttons</a> by
-        Muhammad Ubaid Raza (<a href="https://codepen.io/mubaidr">@mubaidr</a>)
-        on <a href="https://codepen.io">CodePen</a>.
+      >See the Pen <a href='https://codepen.io/mubaidr/pen/gKPOZR/'>Radio Buttons</a> by Muhammad Ubaid Raza (<a href='https://codepen.io/mubaidr'>@mubaidr</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>
       <h3 class="subtitle is-5">
         Default:
@@ -43,16 +34,13 @@
         title="Radio Buttons"
         src="//codepen.io/mubaidr/embed/YvwzOW/?height=265&theme-id=dark&default-tab=html,result&embed-version=2"
         frameborder="no"
-        llowtransparency="true"
+        allowtransparency="true"
         allowfullscreen="true"
         style="width: 100%;"
-        >See the Pen
-        <a href="https://codepen.io/mubaidr/pen/YvwzOW/">Radio Buttons</a> by
-        Muhammad Ubaid Raza (<a href="https://codepen.io/mubaidr">@mubaidr</a>)
-        on <a href="https://codepen.io">CodePen</a>.
+      >See the Pen <a href='https://codepen.io/mubaidr/pen/YvwzOW/'>Radio Buttons</a> by Muhammad Ubaid Raza (<a href='https://codepen.io/mubaidr'>@mubaidr</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>
 
-      <hr />
+      <hr>
       <h2 class="subtitle is-3">
         Custom Loader/Spinner
       </h2>
@@ -61,18 +49,15 @@
         height="265"
         scrolling="no"
         title="Radio Buttons"
-        src="//codepen.io/mubaidr/embed/PaZ      ght=265&theme-id=dark&default-tab=html,result&embed-version=2"
+        src="//codepen.io/mubaidr/embed/PaZoQm/?height=265&theme-id=dark&default-tab=html,result&embed-version=2"
         frameborder="no"
         allowtransparency="true"
         allowfullscreen="true"
         style="width: 100%;"
-        >See the Pen
-        <a href="https://codepen.io/mubaidr/pen/P>oQm/">Radio Buttons</a> by
-        Muhammad Ubaid Raza (<a href="https://codepen.io/mubaidr">@mubaidr</a>)
-        on <a href="https://codepen.io">CodePen</a>.
+      >See the Pen <a href='https://codepen.io/mubaidr/pen/PaZoQm/'>Radio Buttons</a> by Muhammad Ubaid Raza (<a href='https://codepen.io/mubaidr'>@mubaidr</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>
 
-      <hr />
+      <hr>
       <h2 class="subtitle is-3">
         Checkbox
       </h2>
@@ -81,18 +66,15 @@
         height="265"
         scrolling="no"
         title="Radio Buttons"
-        src="//codepen.io/mubaidr/embed/ERPxoz/?height=      e-id=dark&default-tab=html,result&embed-version=2"
+        src="//codepen.io/mubaidr/embed/ERPxoz/?height=265&theme-id=dark&default-tab=html,result&embed-version=2"
         frameborder="no"
         allowtransparency="true"
         allowfullscreen="true"
         style="width: 100%;"
-        >See the Pen
-        <a href="https://codepen.io/mubaidr/pen/ERPxoz/">Radi>Buttons</a> by
-        Muhammad Ubaid Raza (<a href="https://codepen.io/mubaidr">@mubaidr</a>)
-        on <a href="https://codepen.io">CodePen</a>.
+      >See the Pen <a href='https://codepen.io/mubaidr/pen/ERPxoz/'>Radio Buttons</a> by Muhammad Ubaid Raza (<a href='https://codepen.io/mubaidr'>@mubaidr</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>
 
-      <hr />
+      <hr>
       <h2 class="subtitle is-3">
         Toggle
       </h2>
@@ -101,18 +83,15 @@
         height="265"
         scrolling="no"
         title="Radio Buttons"
-        src="//codepen.io/mubaidr/embed/mKVdpr/?height=265      d=dark&default-tab=html,result&embed-version=2"
+        src="//codepen.io/mubaidr/embed/mKVdpr/?height=265&theme-id=dark&default-tab=html,result&embed-version=2"
         frameborder="no"
         allowtransparency="true"
         allowfullscreen="true"
         style="width: 100%;"
-        >See the Pen
-        <a href="https://codepen.io/mubaidr/pen/mKVdpr/">Radio B>tons</a> by
-        Muhammad Ubaid Raza (<a href="https://codepen.io/mubaidr">@mubaidr</a>)
-        on <a href="https://codepen.io">CodePen</a>.
+      >See the Pen <a href='https://codepen.io/mubaidr/pen/mKVdpr/'>Radio Buttons</a> by Muhammad Ubaid Raza (<a href='https://codepen.io/mubaidr'>@mubaidr</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>
 
-      <hr />
+      <hr>
       <h2 class="subtitle is-3">
         Radio
       </h2>
@@ -121,35 +100,29 @@
         height="265"
         scrolling="no"
         title="Radio Buttons"
-        src="//codepen.io/mubaidr/embed/mKVdqr/?height=265&th      ark&default-tab=html,result&embed-version=2"
+        src="//codepen.io/mubaidr/embed/mKVdqr/?height=265&theme-id=dark&default-tab=html,result&embed-version=2"
         frameborder="no"
         allowtransparency="true"
         allowfullscreen="true"
         style="width: 100%;"
-        >See the Pen
-        <a href="https://codepen.io/mubaidr/pen/mKVdqr/">Radio Butt>s</a> by
-        Muhammad Ubaid Raza (<a href="https://codepen.io/mubaidr">@mubaidr</a>)
-        on <a href="https://codepen.io">CodePen</a>.
+      >See the Pen <a href='https://codepen.io/mubaidr/pen/mKVdqr/'>Radio Buttons</a> by Muhammad Ubaid Raza (<a href='https://codepen.io/mubaidr'>@mubaidr</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>
 
-      <hr />
+      <hr>
       <h2 class="subtitle is-3">
         Highlighted Buttons
       </h2>
-      <p>Highlighted buttons to gain user focus.</p>
+      <p>Highlighted buttons to gain user focus. </p>
       <iframe
         height="324"
         scrolling="no"
         title="Highlighted Buttons"
-        src="//codepen.io/mubaidr/embed/GGoRmj/?height=3      -id=dark&default-tab=html,result&embed-version=2"
+        src="//codepen.io/mubaidr/embed/GGoRmj/?height=324&theme-id=dark&default-tab=html,result&embed-version=2"
         frameborder="no"
         allowtransparency="true"
         allowfullscreen="true"
         style="width: 100%;"
-        >See the Pen
-        <a href="https://codepen.io/mubaidr/pen/GGoRmj/">Highl>hted Buttons</a>
-        by Muhammad Ubaid Raza (<a href="https://codepen.io/mubaidr">@mubaidr</a
-        >) on <a href="https://codepen.io">CodePen</a>.
+      >See the Pen <a href='https://codepen.io/mubaidr/pen/GGoRmj/'>Highlighted Buttons</a> by Muhammad Ubaid Raza (<a href='https://codepen.io/mubaidr'>@mubaidr</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>
     </section>
   </div>
