@@ -20,7 +20,7 @@
     "@types/file-loader": "^4.2.0",
     "@types/html-webpack-plugin": "^3.2.2",
     "@types/node-sass": "^4.11.0",
-    "@types/webpack": "^4.41.7",
+    "@types/webpack": "^4.41.9",
     "@types/webpack-dev-server": "^3.10.1",
     "babel-loader": "^8.0.6",
     "copy-webpack-plugin": "^5.1.1",
