@@ -4,7 +4,7 @@
     "url": "https://github.com/mubaidr/bulma-addons/issues"
   },
   "dependencies": {
-    "bulma": "^0.8.0"
+    "bulma": "^0.9.0"
   },
   "description": "Addons for Bulma CSS framework",
   "devDependencies": {
