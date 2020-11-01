@@ -24,7 +24,7 @@
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-vue": "^6.1.2",
     "foreach-cli": "^1.8.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^5.0.0",
     "node-sass-import": "^2.0.1",
     "postcss-cli": "^7.1.0",
     "rimraf": "^3.0.1"
