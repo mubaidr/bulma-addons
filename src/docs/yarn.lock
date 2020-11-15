@@ -2512,12 +2512,13 @@ dom-serializer@0:
     domelementtype "~1.1.1"
     entities "~1.1.1"
 
-dom-serializer@^0.2.1:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.2.2.tgz#1afb81f533717175d478655debc5e332d9f9bb51"
-  integrity sha512-2/xPb3ORsQ42nHYiSunXkDjPLBaEj/xTwUO4B7XCZQTRk7EBtTOPaygh10YAAh2OI1Qrp6NWfpAhzswj0ydt9g==
+dom-serializer@^1.0.1:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-1.1.0.tgz#5f7c828f1bfc44887dc2a315ab5c45691d544b58"
+  integrity sha512-ox7bvGXt2n+uLWtCRLybYx60IrOlWL/aCebWJk1T0d4m3y2tzf4U3ij9wBMUb6YJZpz06HCCYuyCDveE2xXmzQ==
   dependencies:
     domelementtype "^2.0.1"
+    domhandler "^3.0.0"
     entities "^2.0.0"
 
 domain-browser@^1.1.1:
@@ -2554,6 +2555,13 @@ domhandler@^3.0.0:
   dependencies:
     domelementtype "^2.0.1"
 
+domhandler@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-3.3.0.tgz#6db7ea46e4617eb15cf875df68b2b8524ce0037a"
+  integrity sha512-J1C5rIANUbuYK+FuFL98650rihynUOEzRLxW+90bKZRWB6A1X1Tf82GxR1qAWLyfNPRvjqfip3Q5tdYlmAa9lA==
+  dependencies:
+    domelementtype "^2.0.1"
+
 domutils@1.1:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/domutils/-/domutils-1.1.6.tgz#bddc3de099b9a2efacc51c623f28f416ecc57485"
@@ -2569,14 +2577,14 @@ domutils@1.5.1:
     dom-serializer "0"
     domelementtype "1"
 
-domutils@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/domutils/-/domutils-2.1.0.tgz#7ade3201af43703fde154952e3a868eb4b635f16"
-  integrity sha512-CD9M0Dm1iaHfQ1R/TI+z3/JWp/pgub0j4jIQKH89ARR4ATAV2nbaOQS5XxU9maJP5jHaPdDDQSEHuE2UmpUTKg==
+domutils@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/domutils/-/domutils-2.4.2.tgz#7ee5be261944e1ad487d9aa0616720010123922b"
+  integrity sha512-NKbgaM8ZJOecTZsIzW5gSuplsX2IWW2mIK7xVr8hTQF2v1CJWTmLZ1HOCh5sH+IzVPAGE5IucooOkvwBRAdowA==
   dependencies:
-    dom-serializer "^0.2.1"
+    dom-serializer "^1.0.1"
     domelementtype "^2.0.1"
-    domhandler "^3.0.0"
+    domhandler "^3.3.0"
 
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.6.0"
@@ -2813,12 +2821,12 @@ eslint-module-utils@^2.4.1:
     debug "^2.6.9"
     pkg-dir "^2.0.0"
 
-eslint-plugin-html@^6.0.2:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-html/-/eslint-plugin-html-6.0.2.tgz#fcbd293e218d03dd72c147fc999d185c6f5989fe"
-  integrity sha512-Ik/z32UteKLo8GEfwNqVKcJ/WOz/be4h8N5mbMmxxnZ+9aL9XczOXQFz/bGu+nAGVoRg8CflldxJhONFpqlrxw==
+eslint-plugin-html@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-html/-/eslint-plugin-html-6.1.1.tgz#95aee151900b9bb2da5fa017b45cc64456a0a74e"
+  integrity sha512-JSe3ZDb7feKMnQM27XWGeoIjvP4oWQMJD9GZ6wW67J7/plVL87NK72RBwlvfc3tTZiYUchHhxAwtgEd1GdofDA==
   dependencies:
-    htmlparser2 "^4.1.0"
+    htmlparser2 "^5.0.1"
 
 eslint-plugin-import@^2.20.2:
   version "2.20.2"
@@ -3689,14 +3697,14 @@ html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-htmlparser2@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-4.1.0.tgz#9a4ef161f2e4625ebf7dfbe6c0a2f52d18a59e78"
-  integrity sha512-4zDq1a1zhE4gQso/c5LP1OtrhYTncXNSpvJYtWJBtXAETPlMfi3IFNjGuQbYLuVY4ZR0QMqRVvo4Pdy9KLyP8Q==
+htmlparser2@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-5.0.1.tgz#7daa6fc3e35d6107ac95a4fc08781f091664f6e7"
+  integrity sha512-vKZZra6CSe9qsJzh0BjBGXo8dvzNsq/oGvsjfRdOrrryfeD9UOBEEQdeoqCRmKZchF5h2zOBMQ6YuQ0uRUmdbQ==
   dependencies:
     domelementtype "^2.0.1"
-    domhandler "^3.0.0"
-    domutils "^2.0.0"
+    domhandler "^3.3.0"
+    domutils "^2.4.2"
     entities "^2.0.0"
 
 htmlparser2@~3.3.0:
