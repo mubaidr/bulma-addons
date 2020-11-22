@@ -853,13 +853,11 @@
   dependencies:
     "@types/node" "*"
 
-"@types/copy-webpack-plugin@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@types/copy-webpack-plugin/-/copy-webpack-plugin-5.0.1.tgz#53aa9ba7b0702e3bea1baa5b09ba9c76d18312ba"
-  integrity sha512-ngoaMR6fxovcC8MIaWLugJuvq1uFvXY2ehh+k+cLlnKDRHVFbbcKc1AOCKzwkA3fMmt4lLeLcJ7l+PuNmKrmiQ==
+"@types/copy-webpack-plugin@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@types/copy-webpack-plugin/-/copy-webpack-plugin-6.3.0.tgz#bb7fe72fccf75d9096fda2610ec01e9e8b19336f"
+  integrity sha512-b5FXqKbP3e3tKtC6520w9q7nkxBw+5TxQotiFx0M+VMpLlJNfgWINjHPPJSZEhMzb/iIGrkTDBhqotmzV9f5uQ==
   dependencies:
-    "@types/minimatch" "*"
-    "@types/node" "*"
     "@types/webpack" "*"
 
 "@types/eslint@^6.8.1":
