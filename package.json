@@ -9,7 +9,7 @@
   "description": "Addons for Bulma CSS framework",
   "devDependencies": {
     "@types/autoprefixer": "^9.6.1",
-    "@types/eslint": "^6.1.8",
+    "@types/eslint": "^7.2.10",
     "@types/node-sass": "^4.11.0",
     "@types/rimraf": "^2.0.3",
     "autoprefixer": "^9.7.4",
