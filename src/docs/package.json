@@ -13,7 +13,7 @@
   "description": "Addons for Bulma CSS framework",
   "devDependencies": {
     "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-env": "^7.14.1",
     "@types/babel__core": "^7.1.7",
     "@types/copy-webpack-plugin": "^5.0.1",
     "@types/eslint": "^6.8.1",
